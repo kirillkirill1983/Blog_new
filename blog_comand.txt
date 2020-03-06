@@ -29,7 +29,7 @@ L-- mysite
     L-- wsgi.py
 python manage.py makemigrations blog- добавление модели базу 
 python manage.py migrate blog 
-python manage.py createsuperuser -создание супер пользователя(kirill1983)
+python manage.py createsuperuser -создание супер пользователя
 создание статического файла
 djangogirls
 +-- blog
