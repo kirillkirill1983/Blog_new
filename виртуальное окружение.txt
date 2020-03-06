@@ -1,0 +1,3 @@
+python -m venv venv(venv - название окружения любое на вібор главное в папке проекта)
+venv\scripts\activate
+pip freeze > requirements.txt

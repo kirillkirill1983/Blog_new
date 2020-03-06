@@ -1,0 +1,42 @@
+django-admin.exe startproject mysite .
+
++---manage.py
++---mysite
+¦        settings.py
+¦        urls.py
+¦        wsgi.py
+¦        __init__.py
+L---requirements.txt
+python manage.py migrate-создание БД
+python manage.py runserver-запуск сервера
+python manage.py startapp blog-создание приложения в проекте
+djangogirls
++-- blog
+¦   +-- __init__.py
+¦   +-- admin.py
+¦   +-- apps.py
+¦   +-- migrations
+¦   ¦   L-- __init__.py
+¦   +-- models.py
+¦   +-- tests.py
+¦   L-- views.py
++-- db.sqlite3
++-- manage.py
+L-- mysite
+    +-- __init__.py
+    +-- settings.py
+    +-- urls.py
+    L-- wsgi.py
+python manage.py makemigrations blog- добавление модели базу 
+python manage.py migrate blog 
+python manage.py createsuperuser -создание супер пользователя(kirill1983)
+создание статического файла
+djangogirls
++-- blog
+¦   +-- migrations
+¦   +-- static
+¦   L-- templates
+L-- mysite
+______
+blog
+   L-- forms.py
